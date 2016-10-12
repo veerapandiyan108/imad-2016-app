@@ -8,16 +8,6 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var  articleOne={
-    title:'Articleone|veera',
-    heading:'article one',
-    date:'sep 5 2016',
-    content:
-    ' <p> this is contant for</p>'
-};
-});
-
-
 app.get('/ui/style.css',function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
