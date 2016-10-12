@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Article one | veerapandiyan
+        </title>
+        <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <div>
+            <a href="/" >Home</a>
+        </div>
+        <hr/>
+        <h3>Article three </h3>
+        <div>
+            oct 01,2016
+        </div>
+        <div><p> this is contant for first article file this is contant for first article filethis is contant for first article file</p></div>
+        <div><p>this is contant for first article filethis is contant for first article filethis is contant for first article filethis is contant for first article file</p></div>
+    </body>
+</html>
