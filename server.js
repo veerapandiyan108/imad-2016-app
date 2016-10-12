@@ -12,10 +12,9 @@ var  articleOne={
     title:'Articleone|veera',
     heading:'article one',
     date:'sep 5 2016',
-    content:'
-          <p> this is contant for first article file this is contant for first article filethis is contant for first article file</p>
-        <p>this is contant for first article filethis is contant for first article filethis is contant for first article filethis is contant for first article file</p>'
-}
+    content:
+    ' <p> this is contant for</p>'
+};
 app.get('/article-one', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
