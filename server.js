@@ -15,6 +15,24 @@ var  articleOne={
     content:
     ' <p> this is contant for</p>'
 };
+var htmlTemplate= {<html>
+    <head>
+        <title>
+            Article one | veerapandiyan
+        </title>
+        <meta name="viewport" content="width-device-width, initial-scale=1"/>
+<div>
+            oct 01,2016
+        </div>
+        
+</div>
+    </body>
+</html>
+};
+
+    
+
+
 app.get('/article-one', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
