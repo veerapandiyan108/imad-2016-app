@@ -1,13 +1,23 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var pool=require('pg').pool;
+var config = {
+  host: 'veerapandiyan108',
+  user: 'veerapandiyan108',
+  password: 'db-veerapandiyan108-24283',
+  database: 'veerapandiyan108',
+  port:'5432'
+};
+
+
 
 var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
+  
 app.get('/ui/style.css',function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
